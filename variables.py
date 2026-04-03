@@ -5,3 +5,10 @@ bool1 = True # Boolean
 print(num1)
 num1 = 21 # Reassignment
 print("Reassigned value =",num1)
+
+# Adding Floats
+
+num1 = 1.23
+num2 = 2.80
+
+print(round(num1+num2, 2))
