@@ -19,4 +19,4 @@ priceOfMeatballs = 4.39
 print("Price of Meatballs -",priceOfMeatballs)
 
 subtotal = priceOfPenne+priceOfPastaSauce+priceOfGarlic+priceOfSeasoning+priceOfBaguettes+priceOfMeatballs
-print("Price of Items =",round(subtotal,2))
+print("Price of Items =",round(subtotal,3))

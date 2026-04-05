@@ -10,5 +10,6 @@ print("Reassigned value =",num1)
 
 num1 = 1.23
 num2 = 2.80
+num3 = 1.651
 
 print(round(num1+num2, 2))
