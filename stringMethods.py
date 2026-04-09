@@ -107,3 +107,25 @@ print(chr(97))  # Output: 'a'
 print("12345".isdigit())  # Output: True
 print("123.45".isdigit())  # Output: False (period is not a digit)
 print("Hello123".isdigit())  # Output: False (letters are not digits)
+
+# 24. rjust() - Right-justifies the string in a field of a specified width
+print("North Dakota".rjust(17))  # Output: "   North Dakota" (3 spaces added to the left)
+
+# 25. ljust() - Left-justifies the string in a field of a specified width
+print("North Dakota".ljust(17))  # Output: "North Dakota   " (3 spaces added to the right)
+
+# 26. center() - Centers the string in a field of a specified width
+print("North Dakota".center(16 , "*"))
+
+# 27. strip() - Removes leading and trailing characters (default is whitespace)
+print("   Hello, World!   ".strip())  # Output: "Hello, World!"
+print("...Hello, World!...".strip("."))  # Output: "Hello, World!" (removes leading and trailing periods)
+
+# 28. lstrip() - Removes leading characters (default is whitespace)
+print("   Hello, World!   ".lstrip())  # Output: "Hello, World!   " (removes leading whitespace)
+print("...Hello, World!...".lstrip("."))  # Output: "Hello, World!..." (removes leading periods)    
+
+# 29. rstrip() - Removes trailing characters (default is whitespace)
+print("   Hello, World!   ".rstrip())  # Output: "   Hello, World!" (removes trailing whitespace)
+print("...Hello, World!...".rstrip("."))  # Output: "...Hello, World    " (removes trailing periods)    
+
