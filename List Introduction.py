@@ -21,11 +21,21 @@ exampleList7 = list(exampleString)
 exampleList8 = list(range(1, 11))
 
 # We can also create a list from a tuple:
-exampleTuple = (1, 2, 3, 4, 5)
+exampleTuple = (1,(1,2), 3, 4, 5)
 exampleList9 = list(exampleTuple)
+print(exampleList9)
 
 # We can also create a list from a set:
-
 exampleSet = {1, 2, 3, 4, 5}
 exampleList10 = list(exampleSet)
+print(exampleList10)
 
+# The in keyword can be used to check if an item is in a list:
+print(10 in exampleList1)  # True
+print(1.1 in exampleList2)  # True
+print("Grapes" in exampleList3)  # False
+
+# The not in keyword can be used to check if an item is not in a list:
+print(30 not in exampleList1)  # True
+print(1.6 not in exampleList2)  # True
+print("banana" not in exampleList3)  # False
