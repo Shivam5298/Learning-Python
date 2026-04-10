@@ -39,3 +39,24 @@ print("Grapes" in exampleList3)  # False
 print(30 not in exampleList1)  # True
 print(1.6 not in exampleList2)  # True
 print("banana" not in exampleList3)  # False
+
+# We can use indexing to access individual items in a list.
+# Indexes are values that represent the position of an item in a list.
+# Indexing starts from 0, so the first item is at index 0, the second item is at index 1, and so on.
+# Negative indexing starts from the end of the list, so the last item is at index -1
+# We can access item in a nested multiple indexing list using multiple indexing.
+
+indexing = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(indexing[0])    # Output: [1, 2, 3]
+print(indexing[1][2]) # Output: 6
+print(indexing[2][-1]) # Output: 9
+
+
+# We can use slicing to access a range of items in a list.
+# Slicing is done using the colon (:) operator.
+
+slicing = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(slicing[2:5])  # Output: [3, 4, 5]
+print(slicing[:4])   # Output: [1, 2, 3, 4]
+print(slicing[5:8])  # Output: [6, 7, 8]
+print(slicing[-3:9])  # Output: [7, 8, 9]
