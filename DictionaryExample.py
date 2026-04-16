@@ -6,7 +6,11 @@ person = {
     "age": 29,
     "city": "kolkata",
     "email": "sganguly2096@gmail.com",
-    "UUID": "123e4567-e89b-12d3-a456-426614174000"
+    "UUID": "123e4567-e89b-12d3-a456-426614174000",
+    123: "This is a key-value pair with an integer key",
+    1.123: "This is a key-value pair with a float key", 
+    True: "This is a key-value pair with a boolean key",
+    None: "This is a key-value pair with a None key"
 
 }
 
