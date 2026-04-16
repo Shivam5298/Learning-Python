@@ -43,10 +43,9 @@ personDatabase = [
 print(person["name"])  # Output: Shivam Ganguly
 print(person["age"])   # Output: 29
 print("Details of the first person in the database:" )
-print(personDatabase[0])  # Output: {'name': 'Shivam Ganguly', 'age': 29, 'city': 'kolkata', 'fullAddress': {'street': '123 Main St', 'state': 'WB', 'zip': 700032, 'country': 'India'}, 'email': 'sganguly2096@gmail.com'} 
+print(personDatabase[0])  
 
-
-# Anoteher way to access the values in a dictionary is to use the get() method, which returns None if the key is not found instead of raising an error
+# Anoteher way to access the values in a dictionary using a loop and conditionals
 print("Database details of Shivam in the database:" )
 
 for item in personDatabase:
@@ -57,4 +56,4 @@ for item in personDatabase:
     if item["UUID"] == UUID:
         details = item
 
-print(details)  # Output: {'UUID': '123e4567-e89b-12d3-a456-426614174000', 'name': 'Shivam Ganguly', 'age': 29, 'city': 'kolkata', 'fullAddress': {'street': '123 Main St', 'state': 'WB', 'zip': 700032, 'country': 'India'}, 'email': '
+print(details)  
