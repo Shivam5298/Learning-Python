@@ -18,7 +18,7 @@ personDatabase = [
         "fullAddress": {
             "street": "123 Main St",
             "state": "WB",
-            "zip": "700001",
+            "zip": 700032,
             "country": "India"
         },
         "email": "sganguly2096@gmail.com"
@@ -30,7 +30,7 @@ personDatabase = [
         "fullAddress": {
             "street": "456 Oak Ave",
             "state": "NY",
-            "zip": "10001",
+            "zip": 10001,
             "country": "USA"
         },
         "email": "johndoe@example.com"
