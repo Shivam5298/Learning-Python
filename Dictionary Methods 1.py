@@ -81,7 +81,7 @@ print("Name:", person.setdefault("name", "Unknown"))  # Unknown
 print("Updated Dictionary:", person)  # {'name': 'Unknown'}
 
 # 13. Popitem method allows us to remove and return an arbitrary key-value pair from the dictionary.
-removed_item = person.popitem() 
+removed_item = person.popitem()
 print("Removed Item:", removed_item)  # ('name', 'Unknown')
 print("Updated Dictionary:", person)  # {}
 
