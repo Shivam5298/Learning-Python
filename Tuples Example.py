@@ -10,3 +10,18 @@ print(tup4[2:7])
 print(tup4[3:])
 
  
+# Tuples are immutable data type, which means their value can not be change using assignment operator.
+# They take less space in memory.
+
+print(tup1.__sizeof__())
+
+
+# Iterating through a tuple.
+
+for item in tup1:
+    print(item)
+
+count = 0
+while count < len(tup1):
+    print(tup1[count])
+    count += 1
