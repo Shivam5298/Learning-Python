@@ -8,3 +8,4 @@ print(set1)
 print(set2)
 
 # print(set1[2]) // cant be used with indexes
+
